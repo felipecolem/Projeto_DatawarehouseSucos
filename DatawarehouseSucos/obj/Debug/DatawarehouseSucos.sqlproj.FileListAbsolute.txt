@@ -1,0 +1,5 @@
+D:\Courses\Projects\ETL-SQL-Server\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dacpac
+D:\Courses\Projects\ETL-SQL-Server\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dll
+D:\Courses\Projects\ETL-SQL-Server\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
+D:\Courses\Projects\ETL-SQL-Server\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
+D:\Courses\Projects\ETL-SQL-Server\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb
