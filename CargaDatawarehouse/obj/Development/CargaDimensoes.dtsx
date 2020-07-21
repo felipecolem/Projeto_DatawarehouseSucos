@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="44"
-  DTS:VersionGUID="{D006B518-DA5B-4D45-BE0E-70047C0B52CE}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{4159830F-6298-4765-B475-F2DEFFE1247A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -13695,7 +13695,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                 <property
                   dataType="System.String"
                   description="Os mapeamentos entre os parâmetros no comando SQL e as variáveis."
-                  name="ParameterMapping">"Parâmetro0:Input",{B3DBBD27-B669-4843-8D35-B8FCBA2AB101};"Parâmetro1:Input",{F58F5A83-8383-435C-B919-7AE2694F3A4F};"Parâmetro2:Input",{B3DBBD27-B669-4843-8D35-B8FCBA2AB101};"Parâmetro3:Input",{65867A59-FE0E-4728-98F9-00A924AAF926};</property>
+                  name="ParameterMapping">"Parâmetro0:Input",{50581BCE-3D2A-497C-AC5D-8AE9F838204B};"Parâmetro1:Input",{F58F5A83-8383-435C-B919-7AE2694F3A4F};"Parâmetro2:Input",{B3DBBD27-B669-4843-8D35-B8FCBA2AB101};"Parâmetro3:Input",{65867A59-FE0E-4728-98F9-00A924AAF926};</property>
               </properties>
               <connections>
                 <connection
@@ -16645,7 +16645,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16667,7 +16669,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18296,7 +18300,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18318,7 +18324,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18340,7 +18348,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18362,7 +18372,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -19020,13 +19032,25 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="219,42"
-          Id="Package\Criação da Dimensão Tempo\Execução do Script de Tempo"
-          TopLeft="186,5.49999999999989" />
+          Size="148,42"
+          Id="Package\Criação da Dimensão Tempo\Inserir Destino"
+          TopLeft="5.50000000000006,209.5" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Criação da Dimensão Tempo\Comando OLE DB 1"
+          TopLeft="437.5,209.5" />
         <NodeLayout
           Size="217,42"
           Id="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta"
           TopLeft="187,107.5" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Criação da Dimensão Tempo\Comando OLE DB"
+          TopLeft="214.5,209.5" />
+        <NodeLayout
+          Size="219,42"
+          Id="Package\Criação da Dimensão Tempo\Execução do Script de Tempo"
+          TopLeft="186,5.49999999999989" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Origem OLE DB]"
           TopLeft="295.5,47.4999999999999">
@@ -19049,50 +19073,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="148,42"
-          Id="Package\Criação da Dimensão Tempo\Inserir Destino"
-          TopLeft="5.50000000000006,209.5" />
-        <EdgeLayout
-          Id="Package\Criação da Dimensão Tempo.Paths[Nova Saída]"
-          TopLeft="243.25,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-163.75,60"
-              Start="0,0"
-              End="-163.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4855842185129"
-                    Point2="0,20.4855842185129"
-                    Point3="-4,20.4855842185129" />
-                  <mssgle:LineSegment
-                    End="-159.75,20.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-159.75,20.4855842185129"
-                    Point2="-163.75,20.4855842185129"
-                    Point3="-163.75,24.4855842185129" />
-                  <mssgle:LineSegment
-                    End="-163.75,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-106.868359375,25.4855842185129,49.98671875,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="162,42"
-          Id="Package\Criação da Dimensão Tempo\Comando OLE DB"
-          TopLeft="214.5,209.5" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Atualizações de Membro Inferido]"
           TopLeft="295.5,149.5">
@@ -19117,10 +19097,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Criação da Dimensão Tempo\Comando OLE DB 1"
-          TopLeft="437.5,209.5" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Atualizações de Atributo de Alteração]"
           TopLeft="347.75,149.5">
@@ -19154,6 +19130,42 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-15.4876953125,25.4855842185129,206.725390625,12.2490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Criação da Dimensão Tempo.Paths[Nova Saída]"
+          TopLeft="243.25,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-163.75,60"
+              Start="0,0"
+              End="-163.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4855842185129"
+                    Point2="0,20.4855842185129"
+                    Point3="-4,20.4855842185129" />
+                  <mssgle:LineSegment
+                    End="-159.75,20.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-159.75,20.4855842185129"
+                    Point2="-163.75,20.4855842185129"
+                    Point3="-163.75,24.4855842185129" />
+                  <mssgle:LineSegment
+                    End="-163.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-106.868359375,25.4855842185129,49.98671875,10.3349609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
