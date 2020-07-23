@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{FA801CA0-2F33-49DD-A6D0-E4DEA7F531BF}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{FC034E50-8B40-4D1D-A566-964D9F489B89}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -83,7 +83,7 @@
           </ParameterAssignment>
           <ParameterAssignment>
             <ParameterName>Mes_Inicial</ParameterName>
-            <BindedVariableOrParameterName>$Package::Ano_Inicial</BindedVariableOrParameterName>
+            <BindedVariableOrParameterName>$Package::Mes_Inicial</BindedVariableOrParameterName>
           </ParameterAssignment>
         </ExecutePackageTask>
       </DTS:ObjectData>

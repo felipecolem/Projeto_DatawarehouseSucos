@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{52E7C02F-C40A-449C-B7FF-D4B5ADA155D2}">
+  DTS:VersionBuild="24"
+  DTS:VersionGUID="{766CB438-13D1-47A3-A3BA-12EA55375FB9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -63,7 +63,7 @@
       DTS:ObjectName="Mes_Final">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2</DTS:Property>
+        DTS:Name="ParameterValue">12</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -5131,7 +5131,7 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-15.4876953125,25.4855842185129,206.725390625,12.2490234375"
+              BoundingBox="-15.4876953125,25.4855842185129,251.3048046875,12.2490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5167,7 +5167,7 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-106.868359375,25.4855842185129,49.98671875,10.3349609375"
+              BoundingBox="-106.868359375,25.4855842185129,94.9134765625,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5191,7 +5191,7 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-17.72359375,21.37548828125,35.4471875,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5215,7 +5215,7 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
+              BoundingBox="-93.5976953125,20.12548828125,231.7748046875,12.2490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5656,7 +5656,9 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout

@@ -66,6 +66,27 @@
           <String>Tempo</String>
         </ID>
       </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>UfIFX6a5b5L1frsqvR0HAqhKIjQ=23/07/2020 13:16:1323/07/2020 13:01:45fLNx5mseHSK2iAOKeNf5oVO1HlU=23/07/2020 13:01:4623/07/2020 13:01:45</TimeStamp>
+        <ID>
+          <String>VENDAS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VBMg32Q0at5Bh4H4n4MbKlpXtK0=23/07/2020 13:29:3223/07/2020 13:24:540oeG4EEtwIu3W2pgHLyzFpPO2Os=23/07/2020 13:24:5423/07/2020 13:24:54</TimeStamp>
+        <ID>
+          <String>CUSTOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZVQxAYERO/EkvnMytZRAT5uVm6A=23/07/2020 13:40:3123/07/2020 13:32:40YvRLHMLqIKkt9bYvcG5rxQrF7U0=23/07/2020 13:32:4023/07/2020 13:32:40</TimeStamp>
+        <ID>
+          <String>PRESIDENCIA</String>
+        </ID>
+      </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
@@ -78,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-07-22T00:25:27.353333Z</LastDeployed>
+  <LastDeployed>2020-07-23T16:40:43.69Z</LastDeployed>
 </DeploymentSnapshot>
