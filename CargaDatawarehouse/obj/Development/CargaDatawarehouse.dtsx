@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{52C42030-1400-44AD-8CA2-B8AFA204379D}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{9A7CD14F-3760-4040-99A7-7BC88A4DE534}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -32,7 +32,7 @@
       DTS:ObjectName="Ano_Inicial">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2015</DTS:Property>
+        DTS:Name="ParameterValue">2013</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -193,6 +193,10 @@
           Size="135,42"
           Id="Package\Carga Fatos"
           TopLeft="496,317" />
+        <NodeLayout
+          Size="135,42"
+          Id="Package\Carga OLAPs"
+          TopLeft="589,438" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
           TopLeft="448.5,253">
@@ -227,10 +231,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="135,42"
-          Id="Package\Carga OLAPs"
-          TopLeft="589,438" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 1]"
           TopLeft="563.5,359">

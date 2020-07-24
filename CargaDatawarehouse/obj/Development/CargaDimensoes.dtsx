@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="52"
-  DTS:VersionGUID="{EC86CCC6-EBB9-472D-8EBC-A7AD9C038845}">
+  DTS:VersionBuild="58"
+  DTS:VersionGUID="{840607DB-8BB7-4F81-906A-A5D235B72D5F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -235,6 +235,167 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 5]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{5B3EBBBF-04EA-400E-BEB1-5E34120C6C0A}"
+      DTS:ObjectName="Gerenciador de Conexões de Arquivos Simples 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 3\MARCAS E CATEGORIAS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MARCA"
+              DTS:DTSID="{CFA99B5A-B32D-4C85-AD00-4EB15B843E76}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CATEGORIA"
+              DTS:DTSID="{D0901D2C-5879-4200-BBA4-E3D0E649BCAB}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 6]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{551BBCAF-20F3-41F9-A5D9-F8D73C9B1F10}"
+      DTS:ObjectName="Gerenciador de Conexões de Arquivos Simples 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 2\REGIOES DOS ESTADOS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ESTADO ABREVIAÇÃO"
+              DTS:DTSID="{0BC8D010-0A5D-42F3-84B2-5E15DEA8625E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ESTADO"
+              DTS:DTSID="{BB9823CE-028D-46A6-824D-EADF3C1B5441}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="REGIAO"
+              DTS:DTSID="{D191A692-EEF5-465E-B7F4-B39F573BBCFB}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 7]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{AB92AC0B-70F0-4C41-B0A6-776F618054A3}"
+      DTS:ObjectName="Gerenciador de Conexões de Arquivos Simples 7">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 3\MARCAS E CATEGORIAS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MARCA"
+              DTS:DTSID="{A38A14F3-7606-4591-912B-ABE2F61CD90C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CATEGORIA"
+              DTS:DTSID="{C6A16E00-EB87-4FD9-9BBA-DD056CF08F18}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 8]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{698879DA-7A20-401D-9903-CFF0C133DF90}"
+      DTS:ObjectName="Gerenciador de Conexões de Arquivos Simples 8">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 3\MARCAS E CATEGORIAS.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MARCA"
+              DTS:DTSID="{183241F1-4B49-4C15-956C-EDF5ABBD310D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CATEGORIA"
+              DTS:DTSID="{6AFEFF71-D75D-4FA8-95FC-E251FE099A4E}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel]"
       DTS:CreationName="EXCEL"
       DTS:DTSID="{D72CE0A5-178D-4CE2-8861-B6902C80C9F7}"
@@ -252,6 +413,46 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\3 - ETL com Integration Services Transformação de dados\Downloads\Arquivos - Aula 2\CADASTRO DE CLIENTES.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 10]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{734BDDE1-836C-4864-A0E9-F4F568FA5535}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 10">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 4\FUNCIONARIOS GRUPO 1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 11]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{4627B876-A98D-4738-9506-6E02D5957259}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 11">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 4\FUNCIONARIOS GRUPO 2.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 12]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{C4425454-6527-4ED5-BC55-A1F4EEA1C72A}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 12">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 4\FUNCIONARIOS GRUPO 2.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 13]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{6F265F2B-265D-4B31-B68D-96FBBB7A1213}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 13">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 3\PRODUTOS.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -302,6 +503,36 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Downloads\Arquivos - Aula 4\FUNCIONARIOS GRUPO 2.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 7]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{609C065C-8378-4471-880A-70A8918A6748}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 7">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 2\CADASTRO DE CLIENTES.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 8]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{4D554656-F621-4807-9DF0-DBBCF0ABFD2B}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 8">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 4\FUNCIONARIOS GRUPO 1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 9]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{07C29A8A-C392-40AA-8453-661E235DFD01}"
+      DTS:ObjectName="Gerenciador de Conexões do Excel 9">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Courses\Projects\Arquivos Downloads\ETL com Integration Services Transformação de dados\Arquivos - Aula 4\FUNCIONARIOS GRUPO 1.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -381,8 +612,8 @@
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Cliente\Arquivo CSV Estado com Região.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 2]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 6]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 6]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -2876,8 +3107,8 @@
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Cliente\Planilha de Clientes.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 3]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 7]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 7]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -4695,8 +4926,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Organizacional Tab 1 Nível 1\Planilha Funcionarios Grupo 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 5]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 5]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 8]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 8]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -5735,8 +5966,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Organizacional Tab 1 Nível 2\Planilha Funcionarios Grupo 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 5]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 5]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 9]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 9]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -6789,8 +7020,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Organizacional Tab 1 Nível 3\Planilha Funcionarios Grupo 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 5]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 5]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 10]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 10]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -7724,8 +7955,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Organizacional Tab 2 Nível 1\Origem do Excel.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 6]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 6]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 11]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 11]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -8755,8 +8986,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Organizacional Tab 2 Nível 2\Origem do Excel.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 6]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 6]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 12]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 12]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -9701,8 +9932,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Produto - Nível Categoria\Leitura de Marcas e Categorias.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 3]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 7]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 7]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -10664,8 +10895,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Produto - Nível Marca\Leitura de Marcas e Categorias.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 4]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 4]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 8]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões de Arquivos Simples 8]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -12017,8 +12248,8 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
               <connections>
                 <connection
                   refId="Package\Criação da Dimensão Produto Nível Produto\Leitura da planilha de produtos.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 4]"
-                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 4]"
+                  connectionManagerID="Package.ConnectionManagers[Gerenciador de Conexões do Excel 13]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gerenciador de Conexões do Excel 13]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -16220,9 +16451,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16280,9 +16509,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16316,9 +16543,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16352,9 +16577,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16376,9 +16599,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16400,9 +16621,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16424,9 +16643,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16460,9 +16677,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16484,9 +16699,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16877,9 +17090,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16901,9 +17112,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16925,9 +17134,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17138,9 +17345,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17162,9 +17367,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17282,9 +17485,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17405,9 +17606,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17429,9 +17628,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17549,9 +17746,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17744,9 +17939,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17768,9 +17961,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17792,9 +17983,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17933,9 +18122,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17957,9 +18144,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18077,9 +18262,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18300,9 +18483,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18324,9 +18505,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18348,9 +18527,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18372,9 +18549,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18525,9 +18700,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18549,9 +18722,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18573,9 +18744,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18751,9 +18920,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18775,9 +18942,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18799,9 +18964,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18823,9 +18986,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18943,9 +19104,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

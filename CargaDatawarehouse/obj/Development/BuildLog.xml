@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>CargaDatawarehouse</Name>
-    <LastWriteTime>2020-07-24T00:00:10.1027861Z</LastWriteTime>
+    <LastWriteTime>2020-07-24T23:11:06.0578296Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>CargaDimensoes.dtsx</Name>
-      <LastWriteTime>2020-07-23T17:00:56.3548067Z</LastWriteTime>
+      <LastWriteTime>2020-07-24T23:03:37.7477521Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -18,7 +18,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>CargaDatawarehouse.dtsx</Name>
-      <LastWriteTime>2020-07-24T00:00:10.0607726Z</LastWriteTime>
+      <LastWriteTime>2020-07-24T23:11:06.0338707Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
